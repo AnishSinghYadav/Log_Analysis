@@ -1,0 +1,21 @@
+---
+global:
+  scrape_interval: 1s  # Scrape every 1 second
+
+scrape_configs:
+  - job_name: 'flask_app'
+    metrics_path: '/metrics'
+    static_configs:
+      - targets: ['localhost:5002']
+
+  - job_name: 'system'
+    static_configs:
+      - targets: ['localhost:9090']
+    metric_relabel_configs:
+      - source_labels: [__name__]
+        regex: 'process_start_time_seconds'
+        action: keep
+
+  - job_name: 'node_exporter'
+    static_configs:
+      - targets: ['localhost:9100']  # Node Exporter runs on port 9100
