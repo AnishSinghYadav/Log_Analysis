@@ -56,7 +56,8 @@ This project demonstrates how to monitor a Flask server using Prometheus for met
 
 ## 📊 Flow Diagram
 
-![Flow Diagram](A_flowchart_digital_illustration_displays_an_obser.png)
+![ChatGPT Image Apr 6, 2025, 08_36_22 PM](https://github.com/user-attachments/assets/9254be2e-81eb-4408-bb10-0fda8826e3c8)
+
 
 ---
 
