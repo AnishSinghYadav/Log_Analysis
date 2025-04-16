@@ -58,22 +58,6 @@ This project demonstrates how to monitor a Flask server using Prometheus for met
 
 ![ChatGPT Image Apr 6, 2025, 08_36_22 PM](https://github.com/user-attachments/assets/9254be2e-81eb-4408-bb10-0fda8826e3c8)
 
-
----
-
-## 🖼️ Screenshot Placement Guide
-
-| Section                        | Suggested Screenshot                             |
-|-------------------------------|--------------------------------------------------|
-| Grafana Dashboard              | Real-time metrics & logs                         |
-| Prometheus `/targets`         | Confirm targets are scraped                      |
-| Flask `/metrics` endpoint     | Output of Prometheus client                      |
-| Grafana Loki Log Explorer     | Logs collected from Promtail                     |
-| Terminal Setup                | Running Flask, Promtail, Loki                    |
-| Postman API Tests             | Request/response for `/process`, `/generate_logs`|
-
----
-
 ## 🚀 Running the Project
 
 1. **Start Flask Server**
